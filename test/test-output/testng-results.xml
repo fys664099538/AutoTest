@@ -1,45 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38" started-at="2018-05-07T15:20:35Z" finished-at="2018-05-07T15:20:35Z">
+  <suite name="Default suite" duration-ms="77" started-at="2018-05-08T14:50:14Z" finished-at="2018-05-08T14:50:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38" started-at="2018-05-07T15:20:35Z" finished-at="2018-05-07T15:20:35Z">
-      <class name="com.fengys.chapter5.testng.paramter.DataProvideTest">
-        <test-method status="PASS" signature="test2(java.lang.String, int)[pri:0, instance:com.fengys.chapter5.testng.paramter.DataProvideTest@548b7f67]" name="test2" duration-ms="10" started-at="2018-05-07T23:20:35Z" data-provider="methodData" finished-at="2018-05-07T23:20:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xiguan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[57]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="77" started-at="2018-05-08T14:50:14Z" finished-at="2018-05-08T14:50:14Z">
+      <class name="com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion@5ae9a829]" name="test" duration-ms="19" started-at="2018-05-08T22:50:14Z" finished-at="2018-05-08T22:50:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test2(java.lang.String, int)[pri:0, instance:com.fengys.chapter5.testng.paramter.DataProvideTest@548b7f67]" name="test2" duration-ms="1" started-at="2018-05-07T23:20:35Z" data-provider="methodData" finished-at="2018-05-07T23:20:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xiaoqing]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[45]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion@5ae9a829]" name="test" duration-ms="33" started-at="2018-05-08T22:50:14Z" finished-at="2018-05-08T22:50:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- com.fengys.chapter5.testng.paramter.DataProvideTest -->
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion@5ae9a829]" name="test" duration-ms="24" started-at="2018-05-08T22:50:14Z" finished-at="2018-05-08T22:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion@5ae9a829]" name="test" duration-ms="19" started-at="2018-05-08T22:50:14Z" finished-at="2018-05-08T22:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion@5ae9a829]" name="test" duration-ms="30" started-at="2018-05-08T22:50:14Z" finished-at="2018-05-08T22:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion@5ae9a829]" name="test" duration-ms="28" started-at="2018-05-08T22:50:14Z" finished-at="2018-05-08T22:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion@5ae9a829]" name="test" duration-ms="45" started-at="2018-05-08T22:50:14Z" finished-at="2018-05-08T22:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion@5ae9a829]" name="test" duration-ms="21" started-at="2018-05-08T22:50:14Z" finished-at="2018-05-08T22:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion@5ae9a829]" name="test" duration-ms="19" started-at="2018-05-08T22:50:14Z" finished-at="2018-05-08T22:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion@5ae9a829]" name="test" duration-ms="24" started-at="2018-05-08T22:50:14Z" finished-at="2018-05-08T22:50:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.fengys.chapter5.testng.multiThread.MultiThreadOnAnnotion -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
